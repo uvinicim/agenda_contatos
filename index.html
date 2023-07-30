@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="icon" href="./imagens/logo telefone.png" alt="Agenda de Contatos">
+    <link rel="stylesheet" href="./style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="conteudo">
+        <header>
+            <div class="container">
+                <img src="./imagens/logo telefone.png" alt="ícone-telefône">
+                <h1>Contatos</h1>
+            </div>
+        </header>
+        <div class="container">
+            <p>Nome</p>
+            <p>Número</p>
+            <form id="lista">
+                <input placeholder="Nome" type="text"  id="nome-cadastro"  required maxlength="20">
+                <input placeholder="(DDD) Número"  type="text" id="numero-cadastro" required maxlength="20">
+                <button type="submit">Adicionar +</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>                    
+                        <th>Número</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>---</td>
+                        <td>---</td>
+                    </tr>
+                </tbody>
+            </table> 
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

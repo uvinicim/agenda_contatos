@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+.conteudo{
+    max-width: 960px;
+    width: 100%;
+    margin: 0px auto;
+    margin-left: 64px;
+}
+
+
+title{
+    display: none;
+
+}
+body{
+    background-color: #000
+}
+
+header{
+    margin-bottom: 64px;
+    align-items: center;
+    display: flex;
+    
+}
+
+header h1{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+header img{
+    height: 100px;
+    margin-left: 50px;    
+}
+
+header h1:hover{
+    font-size: 60px;
+}
+
+header img:hover{
+    rotate: 45deg;
+}
+
+header .container{
+    align-items: center;
+    display: flex;
+}
+
+.container p{
+    color: #fff;
+    display: inline-flex;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 64px;
+    padding-right: 196px;
+
+}
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+form input, button{
+    display: inline-block;
+    margin-left: 64px;
+    font-size: 24px;
+    color: black;
+
+}
+
+form button{
+    background-color: green;
+    color: #fff;
+    border-color: #fff;
+    cursor: pointer;
+    outline: none;  
+}
+
+form button:hover{
+    background-color: #239e18
+}
+
+table th{
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 64px;
+    padding-right: 192px;
+}
+
+td{
+    margin-left: 64px;
+    border: 2px solid #fff;
+    width: 250px;
+    display: inline-flex;
+    justify-content: space-between;   
+}
+
+
+
+
+
+
+
